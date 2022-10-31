@@ -17,10 +17,10 @@ def main():
     bp = BotPredictor()
 
     twitter_app_auth = {  # twitter account credentials
-            'consumer_key': params['bot_prediction']['twitter_consumer_key'],
-            'consumer_secret': params['bot_prediction']['twitter_consumer_secret'],
-            'access_token': params['bot_prediction']['twitter_access_token'],
-            'access_token_secret': params['bot_prediction']['twitter_access_token_secret'],
+            'consumer_key': params['bot_prediction']['consumer_key'],
+            'consumer_secret': params['bot_prediction']['consumer_secret'],
+            'access_token': params['bot_prediction']['access_token'],
+            'access_token_secret': params['bot_prediction']['access_token_secret'],
             }
 
     # twitter node ID file format --> single column with header <node_id>
